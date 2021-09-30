@@ -1,7 +1,7 @@
 services:
   siribus:
     build: .
-    image: markhuang1212/siribus
+    image: ghcr.io/markhuang1212/siribus
     ports:
       - "8080:8080"
     restart: unless-stopped
